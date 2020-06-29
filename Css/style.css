@@ -1,0 +1,378 @@
+html {
+    background-color: rgb(245, 240, 195);
+    text-align: center;
+}
+.cim2 {
+    color: rgb(104, 83, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    font-weight: 300;
+    background-color: burlywood;
+    text-align: right;
+}
+.cim3 {
+    color: rgb(13, 133, 77);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    font-weight: 300;
+    background-color: coral;
+}
+.p {
+    color: rgb(75, 50, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    font-weight: 300;
+    background-color: cornsilk;
+}
+div {
+    background-color: lightblue;
+    display: inline-block;
+    width: 50%;
+    height: 20%;
+    border: solid;
+    border-color: sandybrown 1%;
+}
+img {
+    width: 15%;
+    height: 45%;
+    padding-top: 2%;
+    margin: 2%;
+}
+.cim {
+    height: 11%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 350%;
+    background-color: rgba(255, 250, 250, 0.473);
+    padding-top: 1%;
+}
+.doboz {
+    display: inline-block;
+    align-items: center;
+    width: 28%;
+    border: solid;
+    border-color: sandybrown 1%;
+    text-align: left;
+}
+.doboz1 {
+    margin: auto;
+    height: 5%;
+    display: inline-block; 
+    width: 28%;
+    border: solid;
+    border-color: sandybrown 1%;
+    text-align: left;
+    padding-top: 1%;
+}
+.dobozmenu {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    border: solid;
+    border-color: sandybrown 1%;
+    text-align: left;
+}
+.dobozalcim {
+    margin: auto;
+    height: 5%;
+    display: inline-block;
+    width: 18%;
+    border: solid;
+    border-color: sandybrown 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.dobozcim {
+    display: inline-block;
+    align-items: center;
+    width: 50%;
+    border: solid;
+    border-color: sandybrown 1%;
+    padding-top: 2%;
+}
+.lista {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    color: rgb(75, 50, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    color: rgb(75, 50, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.menucim {
+    font-size: 24px; 
+    font-style: bold; 
+    color: coral; 
+    font-weight: 700;
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    text-align: center;
+}
+.lista1 {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    color: rgb(75, 50, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.pozicionalas {
+    position: absolute; 
+    z-index: 1; 
+    left: 25%; 
+    top: 4%;
+}
+.pozicionalas00 {
+    position: absolute; 
+    z-index: 1; 
+    left: 24.85%;
+    right: 24.55%; 
+    top: 2%;
+}
+.pozicionalas0 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 25%;
+}
+.pozicionalas01 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 25%;
+}
+.pozicionalas02 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.45%; 
+    top: 35%;
+}
+.pozicionalas03 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 35%;
+}
+.pozicionalas04 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 45%;
+}
+.pozicionalas05 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 45%;
+}
+.pozvonal1 {
+    display: block;
+    margin-top: 26.2%;
+    margin-left: 25%;
+    border-style: inset;
+    border-width: 2px;
+    width: 50%;
+    color: green;
+    background-color: green;
+    position: absolute; 
+    z-index: 1;  
+}
+.pozicionalas10 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 60%;
+}
+.pozicionalas06 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 55%;
+}
+.pozicionalas07 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 65%;
+}
+.pozvonal2 {
+    display: block;
+    margin-top: 36.25%;
+    margin-left: 25%;
+    border-style: inset;
+    border-width: 2px;
+    width: 50%;
+    color: green;
+    background-color: green;
+    position: absolute; 
+    z-index: 1;  
+}
+.pozicionalas08 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 75%;
+}
+.pozicionalas09 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 85%;
+}
+.pozicionalas11 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 80%;
+}
+.pozicionalas1 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 55%;
+}
+.pozicionalas2 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 54.85%;
+}
+.pozicionalas3 {
+    position: absolute; 
+    z-index: 1; 
+    left: 26.5%; 
+    top: 69%;
+}
+.pozicionalas4 {
+    position: absolute; 
+    z-index: 1; 
+    left: 45.5%; 
+    top: 64.85%;
+}
+.pozicionalas5 {
+    position: absolute; 
+    z-index: 1; 
+    left: 25%; 
+    top: 83.35%;
+}
+.pozicionalas12 {
+    position: absolute; 
+    z-index: 1; 
+    left: 32.5%; 
+    top: 26%;
+}
+.table {
+    border-color: gray;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table1 {
+    border-color: gray;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table101 {
+    border-color: gray;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5%;
+    padding: 10px;
+    background-color: greenyellow;
+}
+.table102 {
+    border-color: rgb(64, 114, 45);
+    border: 0px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0.2%;
+    padding: 10px;
+}
+.table2 {
+    border-color: gray;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table3 {
+    border-color: gray;
+    border-top: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table4 {
+    border-color: gray;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table5 {
+    border-color: gray;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table6 {
+    border-color: gray;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+.table7 {
+    border-color: gray;
+    border-top: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
