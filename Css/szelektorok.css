@@ -1,0 +1,31 @@
+.belepes {
+    background-color: bisque;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    left:2%;
+    top: 2%;
+    width: 8%;
+    height: 20%;
+    text-align: left;
+}
+.belepes input {
+    padding: 3px;
+    display: block;
+    margin-bottom: 7px;
+    border: solid 1px green;
+}
+.belepes button:hover {
+    box-shadow: 2px 2px 3px #2a4412;
+}
+.belepes input:hover {
+    box-shadow: 2px 2px 3px #2a4412;
+}
+.belepes input:focus {
+    box-shadow: 2px 2px 3px #2a4412;
+}

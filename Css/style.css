@@ -5,7 +5,7 @@ html {
 .cim2 {
     color: rgb(104, 83, 26);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 250%;
+    font-size: 2.5rem;
     font-weight: 300;
     background-color: burlywood;
     text-align: right;
@@ -13,14 +13,14 @@ html {
 .cim3 {
     color: rgb(13, 133, 77);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 300;
     background-color: coral;
 }
 .p {
     color: rgb(75, 50, 133);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 300;
     background-color: cornsilk;
 }
@@ -44,7 +44,7 @@ img {
     font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 350%;
+    font-size: 3.5rem;
     background-color: rgba(255, 250, 250, 0.473);
     padding-top: 1%;
 }
