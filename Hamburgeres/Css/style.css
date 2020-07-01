@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(245, 240, 195);
+}
+.cim {
+    height: 11%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.oszlopcim{
+    text-align: center;
+    background-color: rgb(174, 206, 143);
+    font-size: 1.5em;
+}
+.adat{
+    text-align: center;
+}
+[type=name]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=email]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=address]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=comment]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=checkbox]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=password]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+.kiemeles{
+    height: 8%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
