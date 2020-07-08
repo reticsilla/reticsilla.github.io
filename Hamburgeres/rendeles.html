@@ -55,23 +55,23 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form>
+                <form action="">
                     <fieldset>
                         <legend class="oszlopcim"> Személyes adatok </legend>
                         <div class="form-group">
                             <label>Név:*</label>
-                            <input class="form-control mr-sm-2 becitel" type="name" placeholder="Név">
+                            <input class="form-control mr-sm-2 becitel" name="name" type="name" placeholder="Név">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">E-mail cím*</label>
-                            <input type="email" class="form-control mr-sm-2" placeholder="E-mail cím"
+                            <input name="email" type="email" class="form-control mr-sm-2" placeholder="E-mail cím"
                                 id="exampleInputEmail1" aria-describedby="emailHelp">
                             <small id="emailHelp" class="form-text text-muted">Nem osztjuk meg az e-mail címedet
                                 mással.</small>
                         </div>
                         <div class="form-group">
-                            <label>Cím:</label>
-                            <input type="address" class="form-control mr-sm-2" placeholder="Cím">
+                            <label>Cím:*</label>
+                            <input name="address" type="address" class="form-control mr-sm-2" placeholder="Cím">
                         </div>
                         <div class="form-group">
                             <label>Megjegyzés:</label>
@@ -84,34 +84,32 @@
                         <fieldset>
                             <legend class="kiemeles">Extra feltét:</legend>
                             <div>
-                                <input id="nothing" name="extra" type="radio" value="0">
-                                <label for="cheese">Nem kérek</label>
-                            </div>
-                            <div>
                                 <input id="cheese" name="extra" type="radio" value="300">
                                 <label for="cheese">Füstölt sajt</label>
                             </div>
                             <div>
-                                <input id="double-cheese" name="extra" type="radio" value="600">
-                                <label for="double-cheese">Dupla sajt</label>
+                                <input id="double" name="extra" type="radio" value="600">
+                                <label for="double">Dupla sajt</label>
                             </div>
                             <div>
-                                <input id="mozarella-cheese" name="extra" type="radio" value="900">
-                                <label for="mozarella-cheese">Mozarella</label>
+                                <input id="mozarella" name="extra" type="radio" value="900">
+                                <label for="mozarella">Mozarella</label>
                             </div>
                             <div>
-                                <input id="parmesan-cheese" name="extra" type="radio" value="1200">
-                                <label for="parmesan-cheese">Parmezán</label>
+                                <input id="parmesan" name="extra" type="radio" value="1200">
+                                <label for="parmesan">Parmezán</label>
                             </div>
                         </fieldset>
                         <p></p>
+                        <p id="demo"></p>
                         <fieldset>
                             <label class="kiemeles" for="sauce">Szósz:</label>
                             <div>
                                 <select id="sauce" name="sauce">
-                                    <option value="0" selected>Mustár</option>
-                                    <option value="100" selected>Majonéz</option>
-                                    <option value="200" selected>Ketchup</option>
+                                    <option selected>Mustár</option>
+                                    <option selected>Majonéz</option>
+                                    <option selected>Ketchup</option>
+                                    <option selected></option>
                                 </select>
                             </div>
                         </fieldset>
@@ -119,25 +117,29 @@
                         <fieldset>
                             <label class="kiemeles" for="quantity">Mennyiség:</label>
                             <div>
-                                <input id="quantity" name="quantity" type="number" min="1" max="10">
+                                <input class="form-control" id="quantity" name="amount-input" type="number">
+                                <small class="form-text text-muted">
+                                    Minimum 1 darabot, maximum 10 darabot kell rendelni.
+                                </small>
                             </div>
                         </fieldset>
                     </fieldset>
                     <p></p>
                     <div class="kiemeles">
-                        Ár: <span>1200</span> Ft
+                        Fizetendő: <span class="show-amount">0</span> Ft
                     </div>
                     <p></p>
                     <div class="form-group form-check mr-sm-2">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label mr-sm-2" for="exampleCheck1">Jelölj be!</label>
                     </div>
-                    <button type="submit" class="btn btn-success">Rendelés</button> 
+                    <button onclick="calcAmount()" type="button" class="btn btn-success">Rendelés</button> 
                 </form>
             </div>
         </div>
     </div>
     </div>
+    <script src="Js/sajat.js"></script>
 </body>
 
 </html>
