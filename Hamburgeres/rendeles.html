@@ -61,6 +61,7 @@
                         <div class="form-group">
                             <label>Név:*</label>
                             <input class="form-control mr-sm-2 becitel" name="name" type="name" placeholder="Név">
+                            <p class="hiba" id="hibanev"></p>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">E-mail cím*</label>
@@ -68,10 +69,12 @@
                                 id="exampleInputEmail1" aria-describedby="emailHelp">
                             <small id="emailHelp" class="form-text text-muted">Nem osztjuk meg az e-mail címedet
                                 mással.</small>
+                            <p class="hiba" id="hibaemail"></p>
                         </div>
                         <div class="form-group">
                             <label>Cím:*</label>
                             <input name="address" type="address" class="form-control mr-sm-2" placeholder="Cím">
+                            <p class="hiba" id="hibacim"></p>
                         </div>
                         <div class="form-group">
                             <label>Megjegyzés:</label>
@@ -101,7 +104,6 @@
                             </div>
                         </fieldset>
                         <p></p>
-                        <p id="demo"></p>
                         <fieldset>
                             <label class="kiemeles" for="sauce">Szósz:</label>
                             <div>
@@ -121,6 +123,7 @@
                                 <small class="form-text text-muted">
                                     Minimum 1 darabot, maximum 10 darabot kell rendelni.
                                 </small>
+                                <p class="hiba" id="darab"></p>
                             </div>
                         </fieldset>
                     </fieldset>

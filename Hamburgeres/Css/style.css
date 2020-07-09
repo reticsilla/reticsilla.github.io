@@ -15,6 +15,14 @@ html{
     background-color: rgb(174, 206, 143);
     font-size: 1.5em;
 }
+.hiba{
+    text-align: left;
+    background-color: yellow;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: red;
+}
 .adat{
     text-align: center;
 }
