@@ -43,7 +43,8 @@ function extraEllenorzes() {
     let edouble = document.getElementById("double").checked;
     let emozarella = document.getElementById("mozarella").checked;
     let eparmesan = document.getElementById("parmesan").checked;
-    if (echeese > 0 || edouble > 0 || emozarella > 0 || eparmesan > 0) {extra=80};
+    if (echeese > 0 || edouble > 0 || emozarella > 0 || eparmesan > 0) {extra=80}
+        else {extra=0};
     szoszEllenorzes();
     return (extra);
 }
