@@ -102,6 +102,9 @@
                                 <input id="parmesan" name="extra" type="radio" value="1200">
                                 <label for="parmesan">Parmezán</label>
                             </div>
+                            <small class="form-text text-muted">
+                                A plusz feltét ára 80 Ft.
+                            </small>
                         </fieldset>
                         <p></p>
                         <fieldset>
@@ -113,6 +116,9 @@
                                     <option selected>Ketchup</option>
                                     <option selected></option>
                                 </select>
+                                <small class="form-text text-muted">
+                                    A szósz ára 50 Ft.
+                                </small>
                             </div>
                         </fieldset>
                         <p></p>
@@ -131,12 +137,15 @@
                     <div class="kiemeles">
                         Fizetendő: <span class="show-amount">0</span> Ft
                     </div>
+                    <small class="form-text text-muted">
+                        Ha a rendelés összege kevesebb, mint 5 000 Ft, akkor 500 Ft szállítási költséget számítunk fel.
+                    </small>
                     <p></p>
                     <div class="form-group form-check mr-sm-2">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label mr-sm-2" for="exampleCheck1">Jelölj be!</label>
                     </div>
-                    <button onclick="calcAmount()" type="button" class="btn btn-success">Rendelés</button> 
+                    <button onclick="nevEllenorzes()" type="button" class="btn btn-success">Rendelés</button>
                 </form>
             </div>
         </div>
