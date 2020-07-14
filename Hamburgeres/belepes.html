@@ -64,32 +64,28 @@
                             <button onclick="napEllenorzes()" class="btn btn-outline-success"
                                 type="button">Választás</button>
                         </td>
-                        <td class="kiemeles adat col-9" colspan="9" id="kinalat"></td>
-                        <td class="jobbra" id="homerseklet"></td>
-                        <td class="kiemeles">
-                            °C
+                        <td class="kiemelesCelzius adat col-9" colspan="9" id="kinalat"></td>
+                        <td class="jobb kiemelesCelzius">
+                            <span id="homerseklet"></span>°C
                         </td>
                     </tr>
                 </table>
                 <table class="table table-warning">
                     <tr>
                         <td class="bal kiemelesSzoveg">
-                            Minimum hőmérséklet:
+                            Minimum hőmérséklet: <span class="jobb kiemelesCelzius" id="minimum"></span><span
+                                class="kiemelesCelzius">°C</span>
                         </td>
-                        <td class="jobb kiemelesCelzius" id="minimum"></td>
-                        <td class="bal kiemeles kiemelesCelzius">°C</td>
                         <td></td>
                         <td Class="adat kiemelesSzoveg">
-                            Maximum hőmérséklet:
+                            Maximum hőmérséklet: <span class="jobb kiemelesCelzius" id="maximum"></span><span
+                                class="kiemelesCelzius">°C</span>
                         </td>
-                        <td class="jobb kiemelesCelzius" id="maximum"></td>
-                        <td class="bal kiemelesCelzius">°C</td>
                         <td></td>
                         <td class="jobb kiemelesSzoveg">
-                            Átlag hőmérséklet:
+                            Átlag hőmérséklet: <span class="jobb kiemelesCelzius" id="atlag"></span><span
+                                class="kiemelesCelzius">°C</span>
                         </td>
-                        <td class="jobb kiemelesCelzius" id="atlag"></td>
-                        <td class="bal kiemelesCelzius">°C</td>
                     </tr>
                 </table>
             </div>

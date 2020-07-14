@@ -75,7 +75,7 @@ html{
 }
 
 .kiemelesCelzius{
-    height: 6%;
+    height: 5%;
     color: rgb(180, 179, 97);
     font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
     font-weight: 700;
@@ -84,7 +84,7 @@ html{
 }
 
 .kiemelesSzoveg{
-    height: 6%;
+    height: 5%;
     color: black;
     font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
     font-weight: 500;
