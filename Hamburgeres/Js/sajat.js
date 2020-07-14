@@ -15,7 +15,7 @@ function emailEllenorzes() {
     const email = document.querySelector("input[name='email']").value.trim();
     let hemail = "";
     if (!email || !(email.indexOf('@') > 0) || !(email.indexOf('.') > 0)) {
-        hemail = "Az e-mail cím hiányzik, vagy érvénytelen! Helyesen adja meg az email címét!";
+        hemail = "Az e-mail cím hiányzik, vagy érvénytelen! Helyesen adja meg az e-mail címét!";
     }
     else {
         hemail = "";
