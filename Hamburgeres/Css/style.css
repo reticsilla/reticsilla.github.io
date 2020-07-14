@@ -26,6 +26,21 @@ html{
 .adat{
     text-align: center;
 }
+.jobbra {
+    height: 8%;
+    text-align: right;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.bal{
+    text-align: left;
+}
+.jobb{
+    text-align: right ;
+}
 [type=name]{
     border-color: rgb(88, 121, 57);
     border-radius: 1.5%;
@@ -57,4 +72,21 @@ html{
     font-weight: 700;
     font-style: italic;
     font-size: 1.5rem;
+}
+
+.kiemelesCelzius{
+    height: 6%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.kiemelesSzoveg{
+    height: 6%;
+    color: black;
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
 }

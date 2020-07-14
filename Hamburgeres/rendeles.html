@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <p></p>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <a class="navbar-brand" href="index.html">Maxi Burgi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -37,6 +38,64 @@
             </form>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-warning">
+                    <tr>
+                        <td class="kiemeles" colspan="12">
+                            Az időjárásnak megfelelő ajánlataink:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="balra">
+                            <select id="napok">
+                                <option selected>Hétfő</option>
+                                <option selected> Kedd</option>
+                                <option selected>Szerda</option>
+                                <option selected>Csütörtök</option>
+                                <option selected> Péntek</option>
+                                <option selected>Szombat</option>
+                                <option selected>Vasárnap</option>
+                                <option selected></option>
+                            </select>
+                        <td class="balra">
+                            <button onclick="napEllenorzes()" class="btn btn-outline-success"
+                                type="button">Választás</button>
+                        </td>
+                        <td class="kiemeles adat col-9" colspan="9" id="kinalat"></td>
+                        <td class="jobbra" id="homerseklet"></td>
+                        <td class="kiemeles">
+                            °C
+                        </td>
+                    </tr>
+                </table>
+                <table class="table table-warning">
+                    <tr>
+                        <td class="bal kiemelesSzoveg">
+                            Minimum hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="minimum"></td>
+                        <td class="bal kiemeles kiemelesCelzius">°C</td>
+                        <td></td>
+                        <td Class="adat kiemelesSzoveg">
+                            Maximum hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="maximum"></td>
+                        <td class="bal kiemelesCelzius">°C</td>
+                        <td></td>
+                        <td class="jobb kiemelesSzoveg">
+                            Átlag hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="atlag"></td>
+                        <td class="bal kiemelesCelzius">°C</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -52,6 +111,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -154,8 +214,10 @@
             </div>
         </div>
     </div>
-    </div>
+
     <script src="Js/sajat.js"></script>
+    <script src="Js/idojaras.js"></script>
+
 </body>
 
 </html>

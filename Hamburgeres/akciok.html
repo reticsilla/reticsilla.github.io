@@ -11,9 +11,10 @@
 </head>
 
 <body>
+    <p></p>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <a class="navbar-brand" href="index.html">Maxi Burgi</a>
-        <button class="navbar-toggler" type="buttond ata-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="buttond ata-toggle=" collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +39,64 @@
             </form>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-warning">
+                    <tr>
+                        <td class="kiemeles" colspan="12">
+                            Az időjárásnak megfelelő ajánlataink:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="balra">
+                            <select id="napok">
+                                <option selected>Hétfő</option>
+                                <option selected> Kedd</option>
+                                <option selected>Szerda</option>
+                                <option selected>Csütörtök</option>
+                                <option selected> Péntek</option>
+                                <option selected>Szombat</option>
+                                <option selected>Vasárnap</option>
+                                <option selected></option>
+                            </select>
+                        <td class="balra">
+                            <button onclick="napEllenorzes()" class="btn btn-outline-success"
+                                type="button">Választás</button>
+                        </td>
+                        <td class="kiemeles adat col-9" colspan="9" id="kinalat"></td>
+                        <td class="jobbra" id="homerseklet"></td>
+                        <td class="kiemeles">
+                            °C
+                        </td>
+                    </tr>
+                </table>
+                <table class="table table-warning">
+                    <tr>
+                        <td class="bal kiemelesSzoveg">
+                            Minimum hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="minimum"></td>
+                        <td class="bal kiemeles kiemelesCelzius">°C</td>
+                        <td></td>
+                        <td Class="adat kiemelesSzoveg">
+                            Maximum hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="maximum"></td>
+                        <td class="bal kiemelesCelzius">°C</td>
+                        <td></td>
+                        <td class="jobb kiemelesSzoveg">
+                            Átlag hőmérséklet:
+                        </td>
+                        <td class="jobb kiemelesCelzius" id="atlag"></td>
+                        <td class="bal kiemelesCelzius">°C</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -53,6 +112,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -74,8 +134,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -86,8 +148,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -98,8 +162,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -110,8 +176,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button ttype="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button ttype="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -122,8 +190,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -134,8 +204,10 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -146,14 +218,16 @@
                             <td class="adat">875 Ft</td>
                             <td class="adat">
                                 <div class="btn-gtoup">
-                                    <button type="button" class="btn-success btn-sm"><i class="fas fa-sync"></i></button>
-                                    <button type="button" class="btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="btn-success btn-sm"><i
+                                            class="fas fa-sync"></i></button>
+                                    <button type="button" class="btn-sm btn-danger"><i
+                                            class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
                     </tbody>
                     <tfoot>
-                        <td class="adat"; colspan="5">
+                        <td class="adat" ; colspan="5">
                             Frissítve: 2020.07.01.
                         </td>
                     </tfoot>
@@ -161,6 +235,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -169,6 +244,8 @@
             </div>
         </div>
     </div>
+
+    <script src="Js/idojaras.js"></script>
 </body>
 
 </html>
