@@ -9,7 +9,7 @@
     <title>Rendelés</title>
 </head>
 
-<body>
+<body class="hatter">
     <p></p>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <a class="navbar-brand" href="index.html">Maxi Burgi</a>
@@ -141,7 +141,7 @@
                     <fieldset>
                         <legend class="oszlopcim">A rendelés adatai</legend>
                         <fieldset>
-                            <legend class="kiemeles">Extra feltét:</legend>
+                            <legend class="kiemeles oszlopcim1">Extra feltét:</legend>
                             <div>
                                 <input id="ures" name="extra" type="radio" value="0">
                                 <label for="ures">Nem kérek extra feltétet.</label>
@@ -168,7 +168,7 @@
                         </fieldset>
                         <p></p>
                         <fieldset>
-                            <label class="kiemeles" for="sauce">Szósz:</label>
+                            <legend class="kiemeles oszlopcim1" for="sauce">Szósz:</legend>
                             <div>
                                 <select id="sauce" name="sauce">
                                     <option selected>Mustár</option>
@@ -183,7 +183,7 @@
                         </fieldset>
                         <p></p>
                         <fieldset>
-                            <label class="kiemeles" for="quantity">Mennyiség:</label>
+                            <legend class="kiemeles oszlopcim1" for="quantity">Mennyiség:</legend>
                             <div>
                                 <input class="form-control" id="quantity" name="amount-input" type="number">
                                 <small class="form-text text-muted">
@@ -194,7 +194,7 @@
                         </fieldset>
                     </fieldset>
                     <p></p>
-                    <div class="kiemeles">
+                    <div class="kiemeles oszlopcim1">
                         Fizetendő: <span class="show-amount">0</span> Ft
                     </div>
                     <small class="form-text text-muted">

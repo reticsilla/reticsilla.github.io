@@ -1,6 +1,7 @@
-html{
-    background-color: rgb(245, 240, 195);
+.hatter{
+    background-color: rgb(196, 195, 185);
 }
+
 .cim {
     height: 11%;
     color: rgb(180, 179, 97);
@@ -10,11 +11,28 @@ html{
     font-size: 3.5rem;
     text-align: center;
 }
+
 .oszlopcim{
     text-align: center;
-    background-color: rgb(174, 206, 143);
+    background-color:  rgb(174, 206, 143);
     font-size: 1.5em;
 }
+
+.oszlopcim1{
+    text-align: left;
+    background-color:  rgb(247, 236, 188);
+    font-size: 1.5em;
+}
+
+.kiemeles{
+    height: 8%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
 .hiba{
     text-align: left;
     background-color: yellow;
@@ -64,14 +82,6 @@ html{
 [type=password]{
     border-color: rgb(88, 121, 57);
     border-radius: 1.5%;
-}
-.kiemeles{
-    height: 8%;
-    color: rgb(180, 179, 97);
-    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 1.5rem;
 }
 
 .kiemelesCelzius{
