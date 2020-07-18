@@ -51,23 +51,30 @@
                     <tr>
                         <td class="balra">
                             <select id="napok">
-                                <option selected>Hétfő</option>
-                                <option selected> Kedd</option>
-                                <option selected>Szerda</option>
-                                <option selected>Csütörtök</option>
-                                <option selected> Péntek</option>
-                                <option selected>Szombat</option>
-                                <option selected>Vasárnap</option>
-                                <option selected></option>
+                                <option selected value="0">Hétfő</option>
+                                <option selected value="1"> Kedd</option>
+                                <option selected value="2">Szerda</option>
+                                <option selected value="3">Csütörtök</option>
+                                <option selected value="4">Péntek</option>
+                                <option selected value="5">Szombat</option>
+                                <option selected value="6">Vasárnap</option>
+                                <option selected value="7"></option>
                             </select>
                         </td>
                         <td class="balra">
-                            <button onclick="napEllenorzes()" class="btn btn-outline-success"
+                            <button onclick="napValasztas()" class="btn btn-outline-success"
                                 type="button">Választás</button>
                         </td>
-                        <td class="kiemelesCelzius adat col-9" colspan="9" id="kinalat"></td>
+                        <td class="kiemelesCelzius adat col-8" colspan="8" id="kinalat"></td>
                         <td class="jobb kiemelesCelzius">
-                            <span id="homerseklet"></span>°C
+                            <span id="homerseklet"></span>
+                        </td>
+                        <td> 
+                            <select class="kiemelesCelzius" id="mertekegyseg">
+                                <option selected value="0">°F</option>
+                                <option selected value="1">°C</option>
+                                <option selected value="2"></option>
+                            </select>
                         </td>
                     </tr>
                 </table>
@@ -176,7 +183,10 @@
     </div>
     <p></p>
 
+    <script src="Js/sajat.js"></script>
     <script src="Js/idojaras.js"></script>
+    <script src="Js/adatok.js"></script>
+
 </body>
 
 </html>
