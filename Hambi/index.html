@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Maxi Burgi</title>
+</head>
+
+<body class="hatter">
+    <p></p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="index.html">Maxi Burgi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="belepes.html">Belépés <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="akciok.html">Akciók <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="etlap.html">Étlapunk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rendeles.html">Rendelés</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Keresés" aria-label="search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Keresés</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-warning">
+                    <tr>
+                        <td class="kiemeles" colspan="12">
+                            Az időjárásnak megfelelő ajánlataink:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="balra">
+                            <select id="napok">
+                                <option selected>Hétfő</option>
+                                <option selected> Kedd</option>
+                                <option selected>Szerda</option>
+                                <option selected>Csütörtök</option>
+                                <option selected> Péntek</option>
+                                <option selected>Szombat</option>
+                                <option selected>Vasárnap</option>
+                                <option selected></option>
+                            </select>
+                        </td>
+                        <td class="balra">
+                            <button onclick="napEllenorzes()" class="btn btn-outline-success"
+                                type="button">Választás</button>
+                        </td>
+                        <td class="kiemelesCelzius adat col-9" colspan="9" id="kinalat"></td>
+                        <td class="jobb kiemelesCelzius">
+                            <span id="homerseklet"></span>°C
+                        </td>
+                    </tr>
+                </table>
+                <table class="table table-warning">
+                    <tr>
+                        <td class="bal kiemelesSzoveg">
+                            Minimum hőmérséklet: <span class="jobb kiemelesCelzius" id="minimum"></span><span
+                                class="kiemelesCelzius">°C</span>
+                        </td>
+                        <td></td>
+                        <td Class="adat kiemelesSzoveg">
+                            Maximum hőmérséklet: <span class="jobb kiemelesCelzius" id="maximum"></span><span
+                                class="kiemelesCelzius">°C</span>
+                        </td>
+                        <td></td>
+                        <td class="jobb kiemelesSzoveg">
+                            Átlag hőmérséklet: <span class="jobb kiemelesCelzius" id="atlag"></span><span
+                                class="kiemelesCelzius">°C</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered">
+                    <tr class="table-warning">
+                        <th class="adat">
+                            <span class="cim">
+                                Maxi Burgi Campani
+                            </span>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p></p>
+
+    <script src="Js/idojaras.js"></script>
+
+</body>
+
+</html>

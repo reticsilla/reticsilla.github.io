@@ -1,0 +1,102 @@
+.hatter{
+    background-color: rgb(196, 195, 185);
+}
+
+.cim {
+    height: 11%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.oszlopcim{
+    text-align: center;
+    background-color:  rgb(174, 206, 143);
+    font-size: 1.5em;
+}
+
+.oszlopcim1{
+    text-align: left;
+    background-color:  rgb(247, 236, 188);
+    font-size: 1.5em;
+}
+
+.kiemeles{
+    height: 8%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.hiba{
+    text-align: left;
+    background-color: yellow;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: red;
+}
+.adat{
+    text-align: center;
+}
+.jobbra {
+    height: 8%;
+    text-align: right;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.bal{
+    text-align: left;
+}
+.jobb{
+    text-align: right ;
+}
+[type=name]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=email]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=address]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=comment]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=checkbox]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+[type=password]{
+    border-color: rgb(88, 121, 57);
+    border-radius: 1.5%;
+}
+
+.kiemelesCelzius{
+    height: 5%;
+    color: rgb(180, 179, 97);
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.kiemelesSzoveg{
+    height: 5%;
+    color: black;
+    font-family: 'Arial Narrow Bold' , Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
