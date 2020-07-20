@@ -88,3 +88,26 @@ function calcAmount() {
     if (amount < 5000 && amountNumber > 0 && amountNumber < 11) { amount = amount + 500 };
     showAmount.innerHTML = amount;
 }
+
+function adatEllenorzes() {
+    let email1 = document.querySelector("input[name='email1']").value.trim();
+    let hemail1 = "";
+    if (!email1 || !(email1.indexOf('@') > 0) || !(email1.indexOf('.') > 0)) {
+        hemail1 = "Az e-mail cím hiányzik, vagy érvénytelen! Helyesen adja meg az e-mail címét!";
+    }
+    else {
+        hemail1 = "";
+    }
+    document.getElementById("hibaemail1").innerHTML = hemail1;
+    let jelszo = document.querySelector("input[name='password']").value.trim();
+    let hjelszo = "Nincs adat";
+    if (!jelszo) {
+        hjelszo = "A jelszó megadása kötelező!";
+    }
+    else {
+        hjelszo = "";
+    };
+    document.getElementById("hibajelszo1").innerHTML = hjelszo;
+    
+}
+

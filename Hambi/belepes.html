@@ -121,20 +121,23 @@
             <div class="col-12">
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">E-mail cím</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label>E-mail cím</label>
+                        <input name="email1" type="email" class="form-control rounded-sm" placeholder="E-mail cím">
                         <small id="emailHelp" class="form-text text-muted">Soha nem osztjuk meg az e-mailedet senki
-                            mással.</small>
+                            mással.
+                        </small>
+                        <p class="hiba rounded-sm" id="hibaemail1"></p>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Jelszó</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label>Jelszó</label>
+                        <input name="password" type="password" class="form-control rounded-sm" placeholder="Jelszó">
+                        <p class="hiba rounded-sm" id="hibajelszo1"></p>
                     </div>
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Jelölj be!</label>
                     </div>
-                    <button type="submit" class="btn btn-success">Belépés</button>
+                    <button onclick="adatEllenorzes()" type="button" class="btn btn-success">Belépés</button>
                 </form>
             </div>
         </div>
