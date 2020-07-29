@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Kiss Éva",
+            "cim": "Vác",
+            "email": "ke@gmail.com",
+            "mobil": "06208758654"
+        },
+        {
+            "id": 2,
+            "name": "Nagy Bálint",
+            "cim": "Vác",
+            "email": "nb@gmail.com",
+            "mobil": "06308758654"
+        },
+        {
+            "id": 3,
+            "name": "Szabó Elek",
+            "cim": "Vác",
+            "email": "se@gmail.com",
+            "mobil": "06708758654"
+        },
+        {
+            "id": 4,
+            "name": "Horváth Anna",
+            "cim": "Vác",
+            "email": "ha@gmail.com",
+            "mobil": "06206758654"
+        },
+        {
+            "id": 5,
+            "name": "Kovács Ádám",
+            "cim": "Vác",
+            "email": "ka@gmail.com",
+            "mobil": "06207758654"
+        },
+        {
+            "id": 6,
+            "name": "Bobák Attila",
+            "cim": "Vác",
+            "email": "ba@gmail.com",
+            "mobil": "06205758654"
+        },
+        {
+            "id": 7,
+            "name": "Réti István",
+            "cim": "Vác",
+            "email": "ri@gmail.com",
+            "mobil": "06204758654"
+        },
+        {
+            "id": 8,
+            "name": "Nagy Jajos",
+            "cim": "Vác",
+            "email": "nj@gmail.com",
+            "mobil": "06203758654"
+        },
+        {
+            "id": 9,
+            "name": "Hó Eéel",
+            "cim": "Vác",
+            "email": "he@gmail.com",
+            "mobil": "06202758654"
+        },
+        {
+            "id": 10,
+            "name": "Mérga Géza",
+            "cim": "Vác",
+            "email": "mg@gmail.com",
+            "mobil": "06201758654"
+        },
+        {
+            "id": 11,
+            "name": "Posta Botond",
+            "cim": "Vác",
+            "email": "pb@gmail.com",
+            "mobil": "06209758654"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "userId": 1
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felhasználók</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body class="hatter">
+    <p></p>
+    <table class="table table-bordered">
+        <tr class="table-warning">
+            <th class="adat">
+                <span id="uzenet" class="kep"></span>
+            </th>
+        </tr>
+    </table>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered">
+                    <tr class="table-warning">
+                        <th class="adat">
+                            <span class="cim">
+                                Felhasználók admin oldal
+                            </span>
+                        </th>
+                    </tr>
+                </table>
+                <legend class="oszlopcim2"> Új felhasználó: </legend>
+
+                <p></p>
+                <legend class="oszlopcim2"> Felhasználók: </legend>
+                <table id="userTable" class="table table-stripped table-bordered table-sm">
+                    <thead>
+                        <tr class="table-warning">
+                            <th class="adat">Azonosító</th>
+                            <th class="col-3 adat">Név</th>
+                            <th class="col-4 adat">Cím</th>
+                            <th class="col-2 adat">E-mail cím</th>
+                            <th class="adat">Mobil</th>
+                            <th class="adat">Választás</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-warning table-hover" id="partnerek"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p> Szia! </p>
+    <p id="proba"></p>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
